@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0e161f;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+ .card_head {
+    background-color: #153C63;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 35px;
+} 
+
+.card_head > div {
+    height: 60%;
+}
+.card_body {
+    background-color: #F3FBFB;
+    padding: 40px;
+    display: grid;
+} 
+
+
+.logo_container {
+    width: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo_text {
+    font-size: 30px;
+    color: rgb(134, 134, 209);
+    font-weight: 700;
+}
+
+.logo_text::first-letter {
+    font-size: 50px;
+}
+
+.photoshop {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ps {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: 700;
+    color: #153C63;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.pricing_link {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.buy-now {
+    background-color: #0e161f;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.buy-now:hover {
+    background-color: green;
+}
